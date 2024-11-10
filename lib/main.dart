@@ -15,6 +15,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return  MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
         backgroundColor: Colors.green,
         appBar: AppBar(
@@ -32,7 +33,7 @@ class _MyAppState extends State<MyApp> {
 
             ),
 
-            Text('Bienose Emmanuel', style: TextStyle(fontSize: 30, fontFamily: 'Pacifico', color: Colors.white  ),),
+            Text('Bieno Emmanuel', style: TextStyle(fontSize: 30, fontFamily: 'Pacifico', color: Colors.white  ),),
             Text('FLUTTER DEVELOPER', style: TextStyle(letterSpacing: 10, fontSize: 20, fontFamily: 'SourceSan', backgroundColor: Colors.white, ),),
            SizedBox(
             height: 45,
